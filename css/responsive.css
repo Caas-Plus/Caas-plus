@@ -4,6 +4,7 @@
 	width: 100vw; /* Full viewport width */
 	height: 50px; /* Adjust height as needed */
   }
+  
 
 @media only screen and (min-width: 768px) {
 	.nav-box {
@@ -16,6 +17,11 @@
 		font-size: 100px;
 		margin-bottom:20px;
 	}
+	.welcome-box {
+		font-size:20px;
+		line-height:1.7;
+		margin-left:  100px;
+	  }
 	.next-section {
 	/*	bottom: auto; */
 	}
@@ -239,7 +245,7 @@
 		padding:0;
 	}
 	.navbar {
-		padding:15px 0;
+		/* padding:15px 0; */
 	}
 	.navbar-toggle:focus {
 		outline:none;
@@ -439,8 +445,11 @@
 	}
 }
 @media screen and (max-width: 600px){
+	
+	 
 	.welcome-box{
 		font-size: 10vw;
+		margin-left:  0px;
 		/* line-height: 50px; */
 	}
 	.welcome-box p{
@@ -500,11 +509,11 @@
   height: 30%; 
 	}
 	.welcome-first{
-		margin-top: -100%;
+		margin-top: -50%;
 		 
 	}
 	#btnlogin{
-		margin-top:100%;
+		margin-top:50%;
 		width: 30%;
 		font-size: 2.5vw;
 		text-align: center !important; /* Old browsers */
@@ -535,12 +544,12 @@
 	  #welcomeTo{
 		text-align:left !important; 
 		margin-left: 20pt;
-		margin-top: 20pt;
+		/* margin-top: 20pt; */
 
 	  }
 	  #WelcoToPara{
-		text-align:left !important; 
-		margin-left: 80pt;
+		text-align:center !important; 
+		
 		font-size: larger;
 	  }
 		  
@@ -560,6 +569,11 @@
 		background-repeat: no-repeat;
 		width: fit-content;
 		height: fit-content;
+	  }
+	  .navbar {
+		padding: 0;
+		margin-right: 0pt ;
+		margin-top: 20px;
 	  }
 }
 @media (min-width: 601px) {

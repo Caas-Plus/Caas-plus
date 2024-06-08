@@ -100,7 +100,7 @@ a.active {
   }
 }
 p {
-  margin: 0 0 20px;
+  /* margin: 0 0 20px; */
 }
 h1,
 h2,
@@ -216,10 +216,10 @@ video {
   background:none;
 }
 #welcomeTo{
-  text-align:left !important; margin-left: 100pt;
+  text-align:left !important;
 }
 #WelcoToPara{
-  text-align:left !important; margin-left: 100pt;
+  text-align:left ;
 }
 .btn:focus {
   box-shadow:none;
@@ -458,10 +458,7 @@ a#logo {
 /*==============================================
 04. WELCOME BLOCK CSS
 ================================================*/
-.welcome-box {
-  font-size:20px;
-  line-height:1.7;
-}
+
 .welcome-first{
   font-size: 32px;
   display: block;
@@ -473,7 +470,7 @@ a#logo {
 .welcome-box p {
   max-width: 620px;
   width:100%;
-  margin:0 auto 30px;
+  /* margin:0 auto  ; */
   color: #fff;
 }
 .welcome-title {
