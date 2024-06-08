@@ -468,13 +468,13 @@
 		text-align:left !important;   width: 100pt ;
 	font-size: 10px;
 	text-align: center;
-	margin-left: 80pt;
-	margin-top: 20pt;
+	/* margin-left: 80pt;
+	margin-top: 20pt; */
 	/* width: 300px; 
 	 padding: 10px; margin: 20px; word-break: break-all;
 	 margin-right: 200px; */
-	 word-break: break-all; 
-	 overflow-wrap: break-word; /* Allows words to break and wrap */
+	 /* word-break: break-all;  */
+	 /* overflow-wrap: break-word; Allows words to break and wrap */
 
 	word-wrap: break-word; /* Older syntax
 	/* overflow-wrap: break-word; */
@@ -518,6 +518,7 @@
 		background-repeat: no-repeat;
 		height: fit-content ;
 		width:  fit-content;
+		position: fixed;
 		  
 	  }
 	  .fullpage-default{
@@ -526,6 +527,7 @@
 		background-repeat: no-repeat;
 		height: fit-content ;
 		width:  fit-content;
+		position: fixed;
 		  
 	   
  
@@ -546,6 +548,7 @@
 		position: fixed; /* Fix to the bottom */
 		bottom: 0;
 		left: 0;
+		background-color: transparent;
 	
       /* padding: 10%; */
 	}
