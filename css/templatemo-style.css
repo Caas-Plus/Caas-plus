@@ -156,6 +156,9 @@ video {
   min-width: 100%; 
   min-height: 100%;
 }
+#para{
+  text-align:left !important; margin-left: 100pt; width: 400pt ;
+}
 #video:after {
   content: '';
  
@@ -211,6 +214,12 @@ video {
   color:#fff;
   border-color:#fff;
   background:none;
+}
+#welcomeTo{
+  text-align:left !important; margin-left: 100pt;
+}
+#WelcoToPara{
+  text-align:left !important; margin-left: 100pt;
 }
 .btn:focus {
   box-shadow:none;

@@ -130,6 +130,8 @@
 	}
 }
 @media only screen and (max-width: 991px) {
+	
+	
 	.welcome-box {
 		padding: 150px 0px;
 	}
@@ -429,3 +431,122 @@
 		left: 43%;
 	}
 }
+@media screen and (max-width: 600px)
+	{
+	.welcome-box{
+		font-size: 10vw;
+		/* line-height: 50px; */
+	}
+	.welcome-box p{
+		font-size: 8vw;
+		/* line-height: 50px; */
+	}
+	/* .col-sm-4 { 
+		font-size: 18px;
+		
+    	/* white-space: nowrap; */
+	/* } */ */
+ 
+#container {
+	word-break: break-all; 
+	overflow-wrap: break-word; /* Allows words to break and wrap */
+
+}
+#social-icons{
+	display: none;
+}
+.vl{
+	display: none;
+}
+	#para { 
+		text-align:left !important;   width: 100pt ;
+	font-size: 10px;
+	text-align: center;
+	margin-left: 0pt;
+	/* width: 300px; 
+	 padding: 10px; margin: 20px; word-break: break-all;
+	 margin-right: 200px; */
+	 word-break: break-all; 
+	 overflow-wrap: break-word; /* Allows words to break and wrap */
+
+	word-wrap: break-word; /* Older syntax
+	/* overflow-wrap: break-word; */
+	/* overflow: hidden; */
+	/* text-overflow: ellipsis; */ 
+	/* white-space: nowrap; */
+	}
+
+	/* video{
+		min-width: 30%; 
+		min-height: 30%;
+	} */
+
+	#video:after {
+		background: #557474 !important; /* Old browsers */
+		border: 0px ;
+  border-radius: 0px;
+  /* width: 10px; */
+
+	}
+	.preloader {
+		background:rgba(90, 124, 136, 0.1);
+  height: 30%; 
+	}
+	.welcome-first{
+		margin-top: -100%;
+		 
+	}
+	#btnlogin{
+		margin-top:100%;
+		width: 30%;
+		font-size: 2.5vw;
+		text-align: center !important; /* Old browsers */
+		border: 0px ;
+		margin-left: 0pt;
+	}
+	.fullpage {
+		/* backgrou	nd-image: url('your-image.jpg'); */
+		background-size: 10px; /* Default background size */
+		background-position: center;
+		background-repeat: no-repeat;
+		height: fit-content ;
+		width:  fit-content;
+		  
+	  }
+	  .fullpage-default{
+		background-size: contain; /* Default background size */
+		background-position: center;
+		background-repeat: no-repeat;
+		height: fit-content ;
+		width:  fit-content;
+		  
+	   
+ 
+	  }
+	  #welcomeTo{
+		text-align:left !important; margin-left: 0pt;
+	  }
+	  #WelcoToPara{
+		text-align:left !important; margin-left: 0pt;
+	  }
+		  
+ #header{
+	/* height: 10px; Full viewport height */
+	margin: 0%;
+	position: bottom !important;
+	z-index: 6666;
+	background-color: rgba(136, 17, 17, 0.9);
+		width: 100vw; /* Full viewport width
+		
+	
+      /* padding: 10%; */
+}  
+.video{
+	margin-left: 0px;
+	background-size: contain; /* Default background size */
+		background-position: center;
+		background-repeat: no-repeat;
+		width: fit-content;
+		height: fit-content;
+	  }
+	}
