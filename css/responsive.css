@@ -1,3 +1,10 @@
+#header {
+	margin: 0;
+	z-index: 6666;
+	width: 100vw; /* Full viewport width */
+	height: 50px; /* Adjust height as needed */
+  }
+
 @media only screen and (min-width: 768px) {
 	.nav-box {
 		display:block !important;
@@ -431,8 +438,7 @@
 		left: 43%;
 	}
 }
-@media screen and (max-width: 600px)
-	{
+@media screen and (max-width: 600px){
 	.welcome-box{
 		font-size: 10vw;
 		/* line-height: 50px; */
@@ -462,7 +468,8 @@
 		text-align:left !important;   width: 100pt ;
 	font-size: 10px;
 	text-align: center;
-	margin-left: 0pt;
+	margin-left: 80pt;
+	margin-top: 20pt;
 	/* width: 300px; 
 	 padding: 10px; margin: 20px; word-break: break-all;
 	 margin-right: 200px; */
@@ -524,23 +531,25 @@
  
 	  }
 	  #welcomeTo{
-		text-align:left !important; margin-left: 0pt;
+		text-align:left !important; 
+		margin-left: 20pt;
+		margin-top: 20pt;
+
 	  }
 	  #WelcoToPara{
-		text-align:left !important; margin-left: 0pt;
+		text-align:left !important; 
+		margin-left: 80pt;
+		font-size: larger;
 	  }
 		  
- #header{
-	/* height: 10px; Full viewport height */
-	margin: 0%;
-	position: bottom !important;
-	z-index: 6666;
-	background-color: rgba(136, 17, 17, 0.9);
-		width: 100vw; /* Full viewport width
-		
+	  #header {
+		position: fixed; /* Fix to the bottom */
+		bottom: 0;
+		left: 0;
 	
       /* padding: 10%; */
-}  
+	}
+	 
 .video{
 	margin-left: 0px;
 	background-size: contain; /* Default background size */
@@ -549,4 +558,11 @@
 		width: fit-content;
 		height: fit-content;
 	  }
-	}
+}
+@media (min-width: 601px) {
+		#header {
+		  position: fixed; /* Fix to the top */
+		  top: 0;
+		  left: 0;
+		}
+}
